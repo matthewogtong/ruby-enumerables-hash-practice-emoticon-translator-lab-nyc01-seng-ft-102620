@@ -13,7 +13,6 @@ def load_library(file_path)
     japanese = value[1]
     emoticon-meaning = hash.new
     binding.pry
-  end
 end
 
 def get_japanese_emoticon
