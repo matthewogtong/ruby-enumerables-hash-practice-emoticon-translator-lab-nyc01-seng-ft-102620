@@ -23,7 +23,7 @@ def get_english_meaning(file_path, emoticon)
 
   translated_emoticons.each do |meaning, value|
     if translated_emoticons[meaning][:japanese] == emoticon
-      english_meaning = translated_emoticons[meaning][:english]
+      return key
     end
     binding.pry
     english_meaning
