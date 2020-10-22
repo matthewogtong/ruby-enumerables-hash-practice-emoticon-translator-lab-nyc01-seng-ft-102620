@@ -28,10 +28,10 @@ def load_library(file_path)
 
     lookup[:get_meaning][japanese] = word
     lookup[:get_emoticon][american] = japanese
+    binding.pry
   end
 
   lookup
-  binding.pry
 end
 
 def get_japanese_emoticon
