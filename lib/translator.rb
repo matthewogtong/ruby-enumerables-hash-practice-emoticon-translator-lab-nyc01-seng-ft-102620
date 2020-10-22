@@ -11,12 +11,11 @@ def load_library(file_path)
 
     english = value[0]
     japanese = value[1]
-    binding.pry
     emoticon-meaning =
     {
-      "meaning" => {
-        :english => english,
-        :japanese => japanese
+      meaning => {
+        'english' => english,
+        'japanese' => japanese
       }
     }
     binding.pry
