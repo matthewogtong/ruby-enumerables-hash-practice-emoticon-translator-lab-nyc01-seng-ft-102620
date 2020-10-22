@@ -16,3 +16,10 @@ def load_library(file_path)
   end
   emoticon_final_hash
 end
+
+def get_english_meaning(file_path, emoticon)
+
+  emoticons = YAML.load_file('./lib/emoticons.yml')
+  binding.pry
+
+end
