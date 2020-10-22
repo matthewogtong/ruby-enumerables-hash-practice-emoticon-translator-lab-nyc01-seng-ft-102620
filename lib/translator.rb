@@ -13,7 +13,7 @@ def load_library(file_path)
     japanese = value[1]
     emoticon-meaning =
     {
-      meaning => {
+      "meaning" => {
         :english => english,
         :japanese => japanese
       }
