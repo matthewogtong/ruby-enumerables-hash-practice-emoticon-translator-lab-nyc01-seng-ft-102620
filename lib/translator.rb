@@ -5,7 +5,7 @@ require 'yaml'
 
 def load_library(file_path)
 
-  # emoticons = YAML.load_file('./lib/emoticons.yml')
+  emoticons = YAML.load_file('./lib/emoticons.yml')
   #
   # emoticon_hashes = {}
   #
@@ -17,7 +17,6 @@ def load_library(file_path)
   #   emoticon-translator = {"english" => english, "japanese" => japanese}
   #   binding.pry
   # end
-  emoticons = YAML.load_file(path)
   lookup = {}
   lookup[:get_meaning] = {}
   lookup[:get_emoticon] = {}
@@ -30,14 +29,5 @@ def load_library(file_path)
     lookup[:get_emoticon][american] = japanese
     binding.pry
   end
-
   lookup
-end
-
-def get_japanese_emoticon
-
-end
-
-def get_english_meaning
-
 end
