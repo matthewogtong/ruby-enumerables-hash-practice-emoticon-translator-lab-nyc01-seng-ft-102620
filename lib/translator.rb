@@ -22,10 +22,10 @@ def get_english_meaning(file_path, emoticon)
   translated_emoticons = load_library(file_path)
 
   translated_emoticons.each do |meaning, value|
-    binding.pry
     if translated_emoticons[meaning][value] == emoticon
-
+      english_meaning = translated_emoticons[meaning][value][:english]
     end
+    english_meaning
   end
 
 end
