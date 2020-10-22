@@ -16,9 +16,10 @@ def load_library(file_path)
       meaning => {
         'english' => english,
         'japanese' => japanese
+        binding.pry
       }
     }
-    binding.pry
+
   end
 end
 
