@@ -8,6 +8,7 @@ def load_library(file_path)
   emoticon_final_hash = {}
 
   emoticons.each do |meaning, value|
+    emoticon_final_hash[key] = meaning
     binding.pry
   end
 
