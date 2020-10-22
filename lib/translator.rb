@@ -25,6 +25,6 @@ def get_english_meaning(file_path, emoticon)
     if translated_emoticons[meaning][value] == emoticon
       binding.pry
     end
-    
+  end
 
 end
