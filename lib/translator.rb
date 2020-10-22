@@ -20,9 +20,10 @@ end
 def get_english_meaning(file_path, emoticon)
 
   translated_emoticons = load_library(file_path)
-  binding.pry
+  # binding.pry
   if emoticon.has_key?
     english_meaning = translated_emoticons.key(emoticon)
+    binding.pry
   end
 
 end
