@@ -13,8 +13,8 @@ def load_library(file_path)
   emoticons.each do |meaning, value|  # meaning= "surprised"   # value= [":o", "o_O"]  <-(e,j)
     english = value[0]
     japanese = value[1]
-    emoticon_lib['get_meaning'][japanese] = meaning
-    emoticon_lib['get_emoticon'][english] = japanese
+    emoticon_lib['english'][japanese] = meaning
+    emoticon_lib['japanese'][english] = japanese
     binding.pry
  end
  emoticon_lib
