@@ -21,7 +21,7 @@ def get_english_meaning(file_path, emoticon)
 
   translated_emoticons = load_library(file_path)
   binding.pry
-  if emoticon.has_key?
-    english_meaning =
+  # if emoticon.has_key?
+  #   english_meaning =
 
 end
