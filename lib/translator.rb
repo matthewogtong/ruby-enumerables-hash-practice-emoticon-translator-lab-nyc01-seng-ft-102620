@@ -14,7 +14,7 @@ def load_library(file_path)
     english = value[0]
     japanese = value[1]
     # emoticon_hashes[meaning] = emoticon_hashes[meaning]
-    emoticon-translator = {'english' => english, 'japanese' => japanese}
+    emoticon-translator = {"english" => english, "japanese" => japanese}
     binding.pry
   end
 end
