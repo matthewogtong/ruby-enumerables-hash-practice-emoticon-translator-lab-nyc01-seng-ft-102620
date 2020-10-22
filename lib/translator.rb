@@ -11,7 +11,7 @@ def load_library(file_path)
 
     english = value[0]
     japanese = value[1]
-    emoticon-meaning = {'let' => {}}
+    emoticon-meaning = {}
     binding.pry
   end
 end
