@@ -10,6 +10,7 @@ def load_library(file_path)
   library.each do |trans, emos|
     response["get_meaning"][emos[1]] = trans
     response["get_emoticon"][emos[0]] = emos[1]
+    binding.pry
   end
   response
 end
