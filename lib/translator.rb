@@ -8,9 +8,9 @@ def load_library(file_path)
   emoticons = YAML.load_file('./lib/emoticons.yml')
 
   emoticons.each do |meaning, value|  # meaning= "surprised"   # value= [":o", "o_O"]  <-(e,j)
-
-    emoticon-meaning = meaning
     binding.pry
+    emoticon-meaning = meaning
+
     english = value[0]
     japanese = value[1]
 
